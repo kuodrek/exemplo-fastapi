@@ -30,7 +30,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "main"}
+    return {"message": "docker main 2!"}
 
 # @app.get("/login")
 # def login():
